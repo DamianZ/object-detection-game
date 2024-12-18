@@ -1,0 +1,17 @@
+{
+  "name": "ai-object-identification-game",
+  "version": "1.0.0",
+  "description": "A game where the application randomly chooses an object, and the user needs to show that object using a camera. The AI will then identify if the shown object matches the expected object.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "opencv4nodejs": "^5.6.0",
+    "@tensorflow/tfjs-node": "^3.9.0",
+    "@tensorflow-models/coco-ssd": "^2.2.2",
+    "@huggingface/inference": "^1.0.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
